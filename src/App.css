@@ -1,0 +1,120 @@
+#app {
+  margin: 0px;
+  padding: 2.5%;
+  background-color: #b3d4fc;
+  min-height: 100vh; }
+  #app .displayButton {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: grey;
+    border-radius: 2px; }
+
+.albums {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%; }
+  .albums .album {
+    width: 100%;
+    padding: 4px; }
+    .albums .album .textContainer {
+      min-height: 10px;
+      background-color: #2B333D;
+      border-radius: 5px;
+      display: table;
+      width: 100%; }
+      .albums .album .textContainer .text {
+        margin: auto;
+        font-family: Helvetica;
+        font-weight: bold;
+        color: #A1BFE2;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px; }
+
+.posts {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px; }
+  .posts .post {
+    margin: 20px;
+    background-color: #2b333e;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; }
+    .posts .post .btnContainer {
+      width: 100px;
+      height: 100px; }
+    .posts .post .text {
+      min-width: 200px;
+      width: calc(100% - 100px); }
+    .posts .post .number {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      background-color: grey;
+      border: 1px solid grey;
+      height: 50px;
+      width: 50px;
+      border-radius: 25px; }
+    .posts .post .numberBtn {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      background-color: white;
+      color: red;
+      font-weight: bold;
+      border: 1px solid black;
+      height: 50px;
+      width: 50px;
+      border-radius: 25px; }
+    .posts .post .numberBtn:hover {
+      color: white;
+      background-color: red; }
+    .posts .post .title {
+      font-family: Helvetica;
+      font-weight: bold;
+      color: white;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: bold; }
+    .posts .post .postBody {
+      font-family: Helvetica;
+      font-weight: normal;
+      color: #A1BFE2;
+      font-size: 16px;
+      line-height: 28px; }
+    .posts .post .changeRanking {
+      min-height: 40px; }
+      .posts .post .changeRanking .changeRankingBtn {
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 150px;
+        font-size: 10px;
+        color: black;
+        background-color: grey;
+        border-radius: 2px; }
+  .posts .instructionBar {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0; }
+
+/*# sourceMappingURL=App.css.map */

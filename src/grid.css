@@ -1,0 +1,55 @@
+/* Box-sizing fix! */
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  .row {
+      margin: 0 auto;
+      display: flex; /* This will allow our row to display columns horizontally */
+      flex-wrap: wrap; /* This will become necessary to allow our flex boxes to stack in responsive mode */
+  }
+  /* If an element needs all twelve columns, then its width is 100%. Easy. */
+  .col-12 {
+      width: 100%;
+  }
+  /* If an element needs 11 of 12 columns, its width is 11/12 * 100% */
+  .col-11 {
+      width: 91.666%;
+  }
+  .col-10 {
+      width: 83.333%;
+  }
+  .col-9 {
+      width: 75%;
+  }
+  .col-8 {
+      width: 66.666%;
+  }
+  .col-7 {
+      width: 58.333%;
+  }
+  /* This is the class we'd use if we want two 50/50 elements next to each other */
+  .col-6 {
+      width: 50%;
+  }
+  .col-5 {
+      width: 41.666%;
+  }
+  /* This is the class we'd use if we want three elements next to each other */
+  .col-4 {
+      width: 33.333%;
+  }
+  /* This is the class we'd use if we want four elements next to each other */
+  .col-3 {
+      width: 25%;
+  }
+  .col-2 {
+      width: 16.666%;
+  }
+  /* We'll almost NEVER use this */
+  .col-1 {
+      width: 8.333%;
+  }

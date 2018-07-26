@@ -1,0 +1,139 @@
+
+#app{
+    margin: 0px;
+    padding: 2.5%;
+    background-color: #b3d4fc;
+    min-height: 100vh;
+    .displayButton{
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 250px;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        background-color: grey;
+        border-radius: 2px;
+    }
+}
+
+.albums{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    .album{
+        width: 100%;
+        padding: 4px;
+        .textContainer{
+            min-height: 10px;
+            background-color: #2B333D;
+            border-radius: 5px;
+            display: table;
+            width: 100%;
+            .text{
+                margin: auto;
+                font-family: Helvetica;
+                font-weight: bold;
+                color: #A1BFE2;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+
+.posts{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    .post{
+        margin : 20px;
+        background-color:rgba(43,51,62,1);
+        border-radius: 5px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        .btnContainer{
+            width: 100px;
+            height: 100px;
+        }
+        .text{
+            min-width: 200px;
+            width: calc(100% - 100px);
+        }
+        .number{
+            position: relative; 
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;    
+            background-color: grey;
+            border: 1px solid grey;  
+            height: 50px;    
+            width: 50px; 
+            border-radius: 25px;  
+        }
+        .numberBtn{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;   
+            background-color: white;
+            color: red;
+            font-weight: bold;
+            border: 1px solid black; 
+            height: 50px;    
+            width: 50px; 
+            border-radius: 25px;              
+        }
+        .numberBtn:hover{
+            color: white;
+            background-color: red;          
+        }
+        .title{
+            font-family: Helvetica;
+            font-weight: bold;
+            color: white;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: bold;
+        }
+        .postBody{
+            font-family: Helvetica;
+            font-weight: normal;
+            color:  #A1BFE2;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .changeRanking{
+            min-height: 40px;
+            .changeRankingBtn{
+                margin-top: 5px;
+                padding: 10px;
+                border: 1px solid black;
+                width: 150px;
+                font-size: 10px;
+                color: black;
+                background-color: grey;
+                border-radius: 2px;
+            }
+        }
+    }
+    .instructionBar{
+        width: 100%;
+        background-color: white;
+        border: 1px solid black;
+        color: red;
+        text-align: center;
+        padding: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        position: fixed;
+        bottom: 0;
+    }
+
+}
